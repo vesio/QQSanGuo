@@ -195,21 +195,6 @@ tile_data = PoolIntArray( -1441797, 0, 0, -1441793, 0, 0, -1507317, 0, 0, -15073
 [node name="Steve" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1641, 478 )
 
-[node name="Sprite" parent="Steve/Control" index="0"]
-frame = 1
-
-[node name="AnimatedSprite2" parent="Steve/Control" index="2"]
-frame = 3
-
-[node name="AnimatedSprite5" parent="Steve/Control" index="7"]
-frame = 4
-
-[node name="AnimatedSprite6" parent="Steve/Control" index="8"]
-frame = 9
-
-[node name="AnimatedSprite4" parent="Steve/Control" index="9"]
-frame = 0
-
 [node name="Camera2D" parent="Steve" index="1"]
 limit_left = -581
 limit_top = -2426
@@ -220,17 +205,17 @@ script = SubResource( 44 )
 tree_root = SubResource( 45 )
 parameters/playback = SubResource( 46 )
 
-[node name="fly_left" parent="Steve" index="18"]
+[node name="fly_left" parent="Steve" index="17"]
+frame = 8
+
+[node name="fly_right" parent="Steve" index="18"]
+frame = 6
+
+[node name="recover" parent="Steve" index="19"]
+frame = 5
+
+[node name="AnimatedSprite" parent="Steve" index="25"]
 frame = 2
-
-[node name="fly_right" parent="Steve" index="19"]
-frame = 0
-
-[node name="recover" parent="Steve" index="20"]
-frame = 11
-
-[node name="AnimatedSprite" parent="Steve" index="26"]
-frame = 0
 
 [node name="ParallaxBackground" parent="." instance=ExtResource( 3 )]
 

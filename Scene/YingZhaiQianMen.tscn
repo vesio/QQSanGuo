@@ -3962,7 +3962,7 @@ shape = SubResource( 24 )
 material = SubResource( 40 )
 frames = SubResource( 54 )
 animation = "idle"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="dengmao15"]
@@ -4070,7 +4070,7 @@ rect_pivot_offset = Vector2( 26.3874, 28.3064 )
 material = SubResource( 99 )
 position = Vector2( 20, 12 )
 frames = ExtResource( 97 )
-frame = 2
+frame = 1
 
 [node name="chibang" type="AnimatedSprite" parent="Steve/Control/Sprite"]
 show_behind_parent = true
@@ -4105,7 +4105,7 @@ position = Vector2( 24, 10 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 104 )
 animation = "accmulate"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="Steve/Control"]
@@ -4139,7 +4139,6 @@ material = SubResource( 107 )
 position = Vector2( 169.748, 20.0399 )
 scale = Vector2( 1.85484, 1.2 )
 frames = SubResource( 108 )
-frame = 1
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="Steve/Control"]
@@ -4148,7 +4147,7 @@ material = SubResource( 109 )
 position = Vector2( 271.105, 20 )
 scale = Vector2( 0.858924, 1.2 )
 frames = SubResource( 97 )
-frame = 8
+frame = 4
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="Steve/Control"]
@@ -4156,7 +4155,6 @@ modulate = Color( 1, 1, 1, 0 )
 material = SubResource( 110 )
 position = Vector2( 167.066, 19.8214 )
 frames = SubResource( 111 )
-frame = 1
 playing = true
 
 [node name="4" type="Sprite" parent="Steve/Control/AnimatedSprite4"]
@@ -4323,7 +4321,7 @@ material = SubResource( 125 )
 position = Vector2( -32.1353, 48.686 )
 scale = Vector2( 0.431948, 0.34901 )
 frames = ExtResource( 98 )
-frame = 1
+frame = 2
 playing = true
 
 [node name="fly_right" type="AnimatedSprite" parent="Steve"]
@@ -4332,7 +4330,6 @@ material = SubResource( 125 )
 position = Vector2( 42.9738, 48.6878 )
 scale = Vector2( 0.431948, 0.34901 )
 frames = ExtResource( 98 )
-frame = 9
 playing = true
 flip_h = true
 
@@ -4341,7 +4338,7 @@ visible = false
 material = SubResource( 126 )
 position = Vector2( 9.51367, 3.56763 )
 frames = SubResource( 127 )
-frame = 7
+frame = 9
 playing = true
 
 [node name="BattleSound" type="AudioStreamPlayer" parent="Steve"]
@@ -4429,7 +4426,7 @@ texture = ExtResource( 197 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Steve"]
 position = Vector2( 9, -134 )
 frames = SubResource( 131 )
-frame = 10
+frame = 12
 playing = true
 
 [node name="Steve2" type="KinematicBody2D" parent="." groups=["Persist"]]
@@ -4451,7 +4448,7 @@ rect_pivot_offset = Vector2( 26.3874, 28.3064 )
 material = SubResource( 99 )
 position = Vector2( 20, 12 )
 frames = ExtResource( 97 )
-frame = 3
+frame = 1
 
 [node name="chibang" type="AnimatedSprite" parent="Steve2/Control/Sprite"]
 show_behind_parent = true
@@ -4486,7 +4483,7 @@ position = Vector2( 24, 10 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 104 )
 animation = "accmulate"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="Steve2/Control"]
@@ -4520,6 +4517,7 @@ material = SubResource( 107 )
 position = Vector2( 169.748, 20.0399 )
 scale = Vector2( 1.85484, 1.2 )
 frames = SubResource( 108 )
+frame = 5
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="Steve2/Control"]
@@ -4528,7 +4526,7 @@ material = SubResource( 109 )
 position = Vector2( 271.105, 20 )
 scale = Vector2( 0.858924, 1.2 )
 frames = SubResource( 97 )
-frame = 7
+frame = 3
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="Steve2/Control"]
@@ -4536,6 +4534,7 @@ modulate = Color( 1, 1, 1, 0 )
 material = SubResource( 110 )
 position = Vector2( 167.066, 19.8214 )
 frames = SubResource( 111 )
+frame = 8
 playing = true
 
 [node name="4" type="Sprite" parent="Steve2/Control/AnimatedSprite4"]
@@ -4701,6 +4700,7 @@ material = SubResource( 125 )
 position = Vector2( -32.1353, 48.686 )
 scale = Vector2( 0.431948, 0.34901 )
 frames = ExtResource( 98 )
+frame = 1
 playing = true
 
 [node name="fly_right" type="AnimatedSprite" parent="Steve2"]
@@ -4709,7 +4709,7 @@ material = SubResource( 125 )
 position = Vector2( 42.9738, 48.6878 )
 scale = Vector2( 0.431948, 0.34901 )
 frames = ExtResource( 98 )
-frame = 8
+frame = 9
 playing = true
 flip_h = true
 
@@ -4718,7 +4718,7 @@ visible = false
 material = SubResource( 126 )
 position = Vector2( 9.51367, 3.56763 )
 frames = SubResource( 127 )
-frame = 6
+frame = 8
 playing = true
 
 [node name="BattleSound" type="AudioStreamPlayer" parent="Steve2"]
@@ -4806,7 +4806,7 @@ texture = ExtResource( 197 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Steve2"]
 position = Vector2( 9, -134 )
 frames = SubResource( 131 )
-frame = 9
+frame = 11
 playing = true
 
 [node name="Steve3" type="KinematicBody2D" parent="." groups=["Persist"]]
@@ -4828,7 +4828,7 @@ rect_pivot_offset = Vector2( 26.3874, 28.3064 )
 material = SubResource( 99 )
 position = Vector2( 20, 12 )
 frames = ExtResource( 97 )
-frame = 3
+frame = 1
 
 [node name="chibang" type="AnimatedSprite" parent="Steve3/Control/Sprite"]
 show_behind_parent = true
@@ -4863,7 +4863,7 @@ position = Vector2( 24, 10 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 104 )
 animation = "accmulate"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="Steve3/Control"]
@@ -4897,6 +4897,7 @@ material = SubResource( 107 )
 position = Vector2( 169.748, 20.0399 )
 scale = Vector2( 1.85484, 1.2 )
 frames = SubResource( 108 )
+frame = 5
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="Steve3/Control"]
@@ -4905,7 +4906,7 @@ material = SubResource( 109 )
 position = Vector2( 271.105, 20 )
 scale = Vector2( 0.858924, 1.2 )
 frames = SubResource( 97 )
-frame = 7
+frame = 3
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="Steve3/Control"]
@@ -4913,6 +4914,7 @@ modulate = Color( 1, 1, 1, 0 )
 material = SubResource( 110 )
 position = Vector2( 167.066, 19.8214 )
 frames = SubResource( 111 )
+frame = 8
 playing = true
 
 [node name="4" type="Sprite" parent="Steve3/Control/AnimatedSprite4"]
@@ -5078,6 +5080,7 @@ material = SubResource( 125 )
 position = Vector2( -32.1353, 48.686 )
 scale = Vector2( 0.431948, 0.34901 )
 frames = ExtResource( 98 )
+frame = 1
 playing = true
 
 [node name="fly_right" type="AnimatedSprite" parent="Steve3"]
@@ -5086,7 +5089,7 @@ material = SubResource( 125 )
 position = Vector2( 42.9738, 48.6878 )
 scale = Vector2( 0.431948, 0.34901 )
 frames = ExtResource( 98 )
-frame = 8
+frame = 9
 playing = true
 flip_h = true
 
@@ -5095,7 +5098,7 @@ visible = false
 material = SubResource( 126 )
 position = Vector2( 9.51367, 3.56763 )
 frames = SubResource( 127 )
-frame = 6
+frame = 8
 playing = true
 
 [node name="BattleSound" type="AudioStreamPlayer" parent="Steve3"]
@@ -5183,7 +5186,7 @@ texture = ExtResource( 197 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Steve3"]
 position = Vector2( 9, -134 )
 frames = SubResource( 131 )
-frame = 9
+frame = 11
 playing = true
 
 [node name="UserInterFace" parent="." instance=ExtResource( 29 )]

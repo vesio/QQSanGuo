@@ -454,7 +454,7 @@ shape = SubResource( 24 )
 material = SubResource( 40 )
 frames = SubResource( 1 )
 animation = "idle"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

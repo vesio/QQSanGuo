@@ -448,6 +448,7 @@ SPEED = 100
 material = SubResource( 3 )
 frames = SubResource( 46 )
 animation = "idle"
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

@@ -1,14 +1,10 @@
-[gd_scene load_steps=109 format=2]
+[gd_scene load_steps=105 format=2]
 
 [ext_resource path="res://UI/装备图标/drop/29652-1.png" type="Texture" id=1]
 [ext_resource path="res://UI/装备图标/drop/29652-4.png" type="Texture" id=2]
 [ext_resource path="res://UI/装备图标/drop/29652-2.png" type="Texture" id=3]
 [ext_resource path="res://UI/装备图标/drop/29652-3.png" type="Texture" id=4]
 [ext_resource path="res://ItemDrop.gd" type="Script" id=5]
-[ext_resource path="res://UI/item_drop/32207-4.png" type="Texture" id=6]
-[ext_resource path="res://UI/item_drop/32207-1.png" type="Texture" id=7]
-[ext_resource path="res://UI/item_drop/32207-2.png" type="Texture" id=8]
-[ext_resource path="res://UI/item_drop/32207-3.png" type="Texture" id=9]
 [ext_resource path="res://UI/item_drop/medicine/32307-2.png" type="Texture" id=10]
 [ext_resource path="res://UI/item_drop/player_use/31991-4.png" type="Texture" id=11]
 [ext_resource path="res://UI/item_drop/medicine/32307-3.png" type="Texture" id=12]
@@ -133,7 +129,7 @@ animations = [ {
 "name": "五级翅膀男",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 6 ) ],
+"frames": [ null, null, null, null ],
 "loop": true,
 "name": "加速",
 "speed": 5.0

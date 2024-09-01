@@ -52,17 +52,15 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = -23.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 693.433, -21.7524 )
 frames = SubResource( 1 )
+frame = 1
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="."]
 position = Vector2( 326.015, -82.7796 )
 frames = SubResource( 2 )
-frame = 6
+frame = 14
 playing = true

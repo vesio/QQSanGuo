@@ -229,24 +229,7 @@ func game_play(delta):
 	velocity.x = 0
 	$CollisionShape2D.disabled = false
 	if not is_on_floor():
-		if state == 0:
-			if derection == 1:
-				velocity.x = SPEED * derection
-			elif derection == -1:
-				velocity.x = SPEED * derection
-			##$Sprite.set()
-			state_machine.travel("jump")
-		else:
-			if attacking == 0:##不在攻击状态中 才可以上下
-				if Input.is_action_pressed("up"):
-					upOrDown = -1
-				elif Input.is_action_pressed("down"):
-					upOrDown = 1
-				else:
-					state = 1
-					upOrDown = 0
-				state_machine.travel("clim")
-				velocity.x = 0
+		not_on_floor_status_change()
 	else:
 		derection = 0
 		if state == 0 and attacking == 0:##不在攻击状态中 才可以
@@ -338,6 +321,27 @@ func game_play(delta):
 		velocity = Vector2(0, 0)
 	velocity = move_and_slide(velocity, Vector2.UP)
 	#velocity.x = lerp(velocity.x, 0, 0.1)
+
+func not_on_floor_status_change():
+	if state == 0:
+		if derection == 1:
+			velocity.x = SPEED * derection
+		elif derection == -1:
+			velocity.x = SPEED * derection
+		##$Sprite.set()
+		state_machine.travel("jump")
+	else:
+		if attacking == 0:##不在攻击状态中 才可以上下
+			if Input.is_action_pressed("up"):
+				upOrDown = -1
+			elif Input.is_action_pressed("down"):
+				upOrDown = 1
+			else:
+				state = 1
+				upOrDown = 0
+			state_machine.travel("clim")
+			velocity.x = 0
+	
 
 func injury(damage, crit = false):
 	_on_Steve_health_updated(damage, crit)
@@ -510,8 +514,8 @@ func attack():
 		get_node("BattleSound").stream = load("res://MUSIC/js/25.wav")
 		skill_time = 1.4
 	get_node("BattleSound").play()
-#	yield($AnimationPlayer,"animation_finished")
-#	attacking = 0
+	#yield($AnimationPlayer,"animation_finished")
+	#attacking = 0
 	$Timer.start(skill_time)
 
 func _on_self_heal_timeout():

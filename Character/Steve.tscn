@@ -4048,6 +4048,7 @@ rect_pivot_offset = Vector2( 26.3874, 28.3064 )
 material = SubResource( 99 )
 position = Vector2( 20, 12 )
 frames = ExtResource( 60 )
+frame = 0
 
 [node name="chibang" type="AnimatedSprite" parent="Control/Sprite"]
 visible = false
@@ -4515,7 +4516,7 @@ material = SubResource( 125 )
 position = Vector2( -32.1353, 48.686 )
 scale = Vector2( 0.431948, 0.34901 )
 frames = ExtResource( 29 )
-frame = 3
+frame = 9
 playing = true
 
 [node name="fly_right" type="AnimatedSprite" parent="."]
@@ -4524,7 +4525,7 @@ material = SubResource( 125 )
 position = Vector2( 42.9738, 48.6878 )
 scale = Vector2( 0.431948, 0.34901 )
 frames = ExtResource( 29 )
-frame = 1
+frame = 7
 playing = true
 flip_h = true
 
@@ -4533,7 +4534,7 @@ visible = false
 material = SubResource( 126 )
 position = Vector2( 9.51367, 3.56763 )
 frames = SubResource( 127 )
-frame = 8
+frame = 10
 playing = true
 
 [node name="BattleSound" type="AudioStreamPlayer" parent="."]

@@ -120,7 +120,7 @@ texture = ExtResource( 4 )
 material = SubResource( 67 )
 position = Vector2( -70, -16 )
 frames = SubResource( 68 )
-frame = 9
+frame = 11
 playing = true
 centered = false
 
